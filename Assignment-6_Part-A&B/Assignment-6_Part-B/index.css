@@ -1,0 +1,33 @@
+.stopWatch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c4378;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.time {
+    font-size: 6rem;
+    color: white;
+}
+
+.buttonGroup {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.startContainer {
+    margin-right: 10px;
+}
+
+.pauseContainer {
+    margin-right: 10px;
+}

@@ -1,0 +1,18 @@
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contentContainer {
+    margin-top: 20px;
+}
+
+#number1Validation {
+    display: none;
+}
+
+#number2Validation {
+    display: none;
+}

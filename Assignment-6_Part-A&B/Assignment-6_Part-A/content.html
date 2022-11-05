@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- JQuery Import -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+     <!-- JQuery Import -->
+    <!-- Bootstrap Imports -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap Imports -->
+    <link rel="stylesheet" href="content.css">
+    <title>Content</title>
+</head>
+
+<body>
+    <div class="bodyContainerContent">
+        <div id="headingContainer">
+            <span class="h2" id="hTag"></span>
+        </div>
+        <div class="contentContainer">
+            <!-- <form> -->
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Number 1</label>
+                <input maxlength="4" type="number" class="form-control" id="number1" aria-describedby="emailHelp">
+                <div id="number1Validation" class="form-text">Please enter a number</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Number 2</label>
+                <input maxlength="4" type="number" class="form-control" id="number2" aria-describedby="emailHelp">
+                <div id="number2Validation" class="form-text">Please enter a number</div>
+            </div>
+            <div class="buttonContainer">
+                <div class="addition">
+                    <button id="add" class="btn btn-primary">Add</button>
+                </div>
+                <div class="subrtraction">
+                    <button id="sub" class="btn btn-primary">Sub</button>
+                </div>
+                <div class="divide">
+                    <button id="divide" class="btn btn-primary">Divide</button>
+                </div>
+                <div class="multiply">
+                    <button id="multiply" class="btn btn-primary">Multiply</button>
+                </div>
+            </div>
+            <!-- </form> -->
+            <div class="resultContainer">
+                <p class="h3" id="result"></p>
+            </div>
+        </div>
+    </div>
+    <script src="content.js"></script>
+
+</body>
+
+</html>

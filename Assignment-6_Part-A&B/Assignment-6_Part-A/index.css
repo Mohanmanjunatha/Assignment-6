@@ -1,0 +1,74 @@
+.cardContainer {
+    display: flex;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 160px; */
+    border: 1px solid black;
+    min-width: 300px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .cardContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} */
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.userNameContainer {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.emailContainer {
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.buttonContainer {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.indexHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 820px) and (max-width:1180px) {
+    .cardContainer {
+        display: flex;
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-top: 160px; */
+        border: 1px solid black;
+        min-width: 400px;
+    }
+}
+
+#userNameValidation {
+    display: none;
+}
+
+#passwordValidation {
+    display: none;
+}
+
+#emailValidation {
+    display: none;
+}
+
